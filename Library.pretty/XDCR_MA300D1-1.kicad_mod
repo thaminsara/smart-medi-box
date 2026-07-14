@@ -1,0 +1,138 @@
+(footprint "XDCR_MA300D1-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.325 -5.935 0)
+		(layer "F.SilkS")
+		(uuid "d969c42b-4386-44fe-899c-44e756f095ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_MA300D1-1"
+		(at 5.97 5.935 0)
+		(layer "F.Fab")
+		(uuid "850ecf9e-b7ce-4be5-9cac-6883c550a936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38a8b6e0-2d78-4507-98ed-b30241d4f5a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "531152fb-8cea-4eb6-bf44-79965ae519c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -5.7 0)
+		(end -5.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dbbceee1-3a52-4c4c-a9b9-acdbcb7d8307")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "91d7683b-072a-4c69-9980-25d2b8e5efb7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e1abf9de-b00f-4cc4-82b3-c5ecf6eb34c2")
+	)
+	(fp_circle
+		(center -5.7 0)
+		(end -5.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "310be218-1e42-4f09-b660-24b02b441e66")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a339a28b-eb23-4e97-9c40-6ac9fb38aadf")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.59 1.59)
+		(drill 1.06)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0d126433-d08c-444c-917c-1d3102101b18")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.59 1.59)
+		(drill 1.06)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5ebcbfb9-2a82-46e1-b31a-c4504a924724")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/MA300D1-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
